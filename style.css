@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+body {
+    position: relative;
+}
+
+.backim {
+    background-image: url('https://imageio.forbes.com/specials-images/imageserve/6680ea836df1d482c9aa5386/UFC-303--Pereira-v-Prochazka-2/0x0.jpg?format=jpg&crop=1511,851,x0,y140,safe&width=960');
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(6px);
+    z-index: -2;
+    position: fixed;
+}
+
+
+.bet-input {
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    position: absolute;
+    position: absolute;
+    top: 40%; /* Moves the element down by half of the viewport height */
+    left: 50%; /* Moves the element right by half of the viewport width */
+    transform: translate(-50%, -50%); /* Offsets the element by its own dimensions */
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+    outline: rgba(255, 255, 255, 0.8);
+}
+
+.bet-container {
+    outline: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
