@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="backim"></div>
-    <div class="bet-container"><input type="number" id="betInput" class="bet-input" placeholder="Your Bet Amount"></div>
+    <div class="bet-container"><input type="number" id="betInput" class="bet-input" placeholder="Your Bet Amount" oninput="updateBet()"></div>
     <div class="add-leg-container">
         <input type="number" id="legInput" class="leg-input" placeholder="Add Leg" oninput="updateLeg()">
         <button id="addLegButton" onclick="addLeg()">Add Leg</button>
