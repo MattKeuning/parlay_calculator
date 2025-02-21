@@ -34,7 +34,6 @@ body {
     background: rgba(255, 255, 255, 0.8);
     color: black;
     position: absolute;
-    position: absolute;
     top: 40%; /* Moves the element down by half of the viewport height */
     left: 50%; /* Moves the element right by half of the viewport width */
     transform: translate(-50%, -50%); /* Offsets the element by its own dimensions */
@@ -46,6 +45,55 @@ body {
 
 .bet-container {
     outline: none;
+}
+
+.leg-input {
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    position: absolute;
+    top: 51%; /* Moves the element down by half of the viewport height */
+    left: 50%; /* Moves the element right by half of the viewport width */
+    transform: translate(-50%, -50%); /* Offsets the element by its own dimensions */
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+    outline: rgba(255, 255, 255, 0.8);
+}
+
+#addLegButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.8);;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    top: 51%; /* Moves the element down by half of the viewport height */
+    left: 80%; /* Moves the element right by half of the viewport width */
+    transform: translate(-50%, -50%);
+
+}
+
+.total-payout {
+    padding: 20px;
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    position: absolute;
+    top: 65%; /* Moves the element down by half of the viewport height */
+    left: 50%; /* Moves the element right by half of the viewport width */
+    transform: translate(-50%, -50%); /* Offsets the element by its own dimensions */
+    z-index: 1;
+    text-align: center;
+    outline: rgba(255, 255, 255, 0.8);
 }
 
 input[type="number"]::-webkit-outer-spin-button,
